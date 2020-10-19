@@ -26,6 +26,8 @@
 		5CED08D324BB4FFB0070DC95 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED08D224BB4FFB0070DC95 /* NotificationView.swift */; };
 		5CED08D524BB4FFC0070DC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CED08D424BB4FFC0070DC95 /* Assets.xcassets */; };
 		5CED08D824BB4FFC0070DC95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CED08D724BB4FFC0070DC95 /* Preview Assets.xcassets */; };
+		5CED08EF24BB56310070DC95 /* ViewModelPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED08EE24BB56310070DC95 /* ViewModelPhone.swift */; };
+		5CED08F324BB60FE0070DC95 /* ViewModelWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED08F224BB60FE0070DC95 /* ViewModelWatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,8 @@
 		5CED08D724BB4FFC0070DC95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CED08D924BB4FFC0070DC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CED08DA24BB4FFC0070DC95 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5CED08EE24BB56310070DC95 /* ViewModelPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelPhone.swift; sourceTree = "<group>"; };
+		5CED08F224BB60FE0070DC95 /* ViewModelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 		5CED088324BB4FF70070DC95 = {
 			isa = PBXGroup;
 			children = (
+				5CED08EE24BB56310070DC95 /* ViewModelPhone.swift */,
 				5CED088E24BB4FF70070DC95 /* ConnectivitySwiftUI */,
 				5CED08A524BB4FFA0070DC95 /* ConnectivitySwiftUITests */,
 				5CED08B024BB4FFB0070DC95 /* ConnectivitySwiftUIUITests */,
@@ -233,6 +238,7 @@
 				5CED08D924BB4FFC0070DC95 /* Info.plist */,
 				5CED08DA24BB4FFC0070DC95 /* PushNotificationPayload.apns */,
 				5CED08D624BB4FFC0070DC95 /* Preview Content */,
+				5CED08F224BB60FE0070DC95 /* ViewModelWatch.swift */,
 			);
 			path = "ConnectivitySwiftUI WatchKit Extension";
 			sourceTree = "<group>";
@@ -439,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CED089024BB4FF70070DC95 /* AppDelegate.swift in Sources */,
+				5CED08EF24BB56310070DC95 /* ViewModelPhone.swift in Sources */,
 				5CED089224BB4FF70070DC95 /* SceneDelegate.swift in Sources */,
 				5CED089424BB4FF70070DC95 /* ContentView.swift in Sources */,
 			);
@@ -468,6 +475,7 @@
 				5CED08CB24BB4FFB0070DC95 /* ContentView.swift in Sources */,
 				5CED08D124BB4FFB0070DC95 /* NotificationController.swift in Sources */,
 				5CED08CF24BB4FFB0070DC95 /* ExtensionDelegate.swift in Sources */,
+				5CED08F324BB60FE0070DC95 /* ViewModelWatch.swift in Sources */,
 				5CED08D324BB4FFB0070DC95 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

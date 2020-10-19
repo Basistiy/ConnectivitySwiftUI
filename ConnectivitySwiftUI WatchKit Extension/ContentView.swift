@@ -9,8 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = ViewModelWatch()
     var body: some View {
-        Text("Hello, World!")
+        Text(self.model.messageText)
     }
 }
 
